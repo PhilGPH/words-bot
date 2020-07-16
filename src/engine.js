@@ -21,9 +21,6 @@ export const magic = (input) => {
 
     for (let i = 0; i < input.length; i++) {
         for (let j = 0; j < input[i].length; j++) {
-            // if (i === 1 && j === 0) {
-            //     debugger
-            // }
             let letter = input[i][j];
             let word = letter.value;
             let inCurrentWord = [JSON.parse(JSON.stringify(letter))];
